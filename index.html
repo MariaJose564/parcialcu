@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Parcial</title>
+	<style>
+
+	.cuadro{
+		background: crimson;
+		position: absolute;
+		width: 1200px;
+		height: 610px;
+		left: 85px;
+		border: solid 3px black;
+	}
+
+	.tema1{
+		background: lightpink;
+		position: absolute;
+		width: 200px;
+		height: 110px;
+		left: 100px;
+		top: 20px;
+		border: solid 3px black;
+		
+	}
+
+
+	.tema2{
+		background: lightpink;
+		position: absolute;
+		width: 200px;
+		height: 110px;
+		left: 1075px;
+		top: 497px;
+		border: solid 3px black;
+	}
+
+	.audio{
+		background: lightpink;
+		position: absolute;
+		width: 120px;
+		height: 110px;
+		left: 1150px;
+		top: 20px;
+		border: solid 3px black;
+		border-radius: 180px;
+		
+	}
+
+	.cu1{
+		background: lightblue;
+		position: absolute;
+		width: 750px;
+		height: 500px;
+		left: 309px;
+		top: 70px;
+		border: solid 3px black;
+		display: none;
+		padding-left: 7px;
+
+	}
+
+	.cerr1{
+		background: lightpink;
+		position: absolute;
+		width: 130px;
+		height: 70px;
+		left: 610px;
+		top: 415px;
+		border: solid 3px black;
+
+	}
+
+	.cu2{
+		background: lightblue;
+		position: absolute;
+		width: 750px;
+		height: 500px;
+		left: 309px;
+		top: 70px;
+		border: solid 3px black;
+		display: none;
+		padding-left: 7px;
+	}
+
+	.cerr2{
+		background: lightpink;
+		position: absolute;
+		width: 130px;
+		height: 70px;
+		left: 610px;
+		top: 415px;
+		border: solid 3px black;
+
+	}
+
+
+
+
+
+
+
+
+
+	</style>
+</head>
+<body bgcolor="Beige">
+
+	<div class="cuadro"></div>
+
+	<div class="tema1" id="boto1" onclick="document.getElementById('hij1').style.display='block'"><font face="Kelsey Script" size="5px"><h1><center>Tema 1</center></h1></font></div>
+
+	<div class="cu1" id="hij1">
+		<div class="temax"><font face="Agency FB"><h2 align="justify">Extranjero es el que no forma parte de la comunidad política propia que se adopta como <br>
+		referencia.  En todos los Estados existe una regulación aplicable a la presencia, entrada y <br>
+		salida de los extranjeros de su territorio nacional. Tal regulación recibe el nombre de <br>derecho de extranjería.</h2></font></div>
+		<center><img src="kath.jpg"></center>
+
+		<div class="cerr1" id="boton1" onclick="document.getElementById('hij1').style.display='none'"><font face="Kelsey Script"><h2><center>Cerrar</center></h2></font></div>
+	</div>
+
+
+
+	<div class="tema2" id="boto2" onclick="document.getElementById('hij2').style.display='block'"><font face="Kelsey Script" size="5px"><h1><center>Tema 2</center></h1></font></div>
+
+	<div class="cu2" id="hij2">
+		<div class="temad"><font face="Agency FB"><h2 align="justify">Extranjería es la cualidad y condición de extranjero; que implica no estar sujeto a <br>
+		ciertas obligaciones y derechos comunes a los nacionales de un Estado. La definición, la <br>
+	    delimitación y análisis de la condición de extranjeria es tan antigua como la propia <br> 
+	    civilización y la fijación de la comunidad política como un cuerpo en cuyo seno se aplican <br>
+	    tales derechos y obligaciones.</h2></font></div>
+		<center><img src="mi.jpg"></center>	
+		<div class="cerr2" id="boton2" onclick="document.getElementById('hij2').style.display='none'"><font face="Kelsey Script"><h2><center>Cerrar</center></h2></font></div>	
+	</div>
+
+
+	<div class="audio" id="filt" onclick="document.getElementById('park').play();"><font face="Kelsey Script" size="5px"><h1><center>Play</center></h1></font><audio class="sonid" src="filter.mp3" id="park" onclick="document.getElementById('filt').play();"></audio></div>
+
+ 
+
+
+
+</body>
+</html>
